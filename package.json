@@ -1,0 +1,14 @@
+{
+  "name": "Starred Package Installer",
+  "main": "./lib/starred-package-installer",
+  "version": "0.0.0",
+  "description": "Installs your starred packages when run",
+  "activationEvents": ["starred-package-installer:run"],
+  "repository": "https://github.com/atom/starred-package-installer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

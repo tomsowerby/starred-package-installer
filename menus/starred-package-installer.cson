@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable starred-package-installer': 'Starred Package Installer:run'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Starred Package Installer'
+      'submenu': [
+        { 'label': 'Run', 'command': 'starred-package-installer:run' }
+      ]
+    ]
+  }
+]
