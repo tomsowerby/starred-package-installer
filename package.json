@@ -1,14 +1,15 @@
 {
   "name": "starred-package-installer",
   "main": "./lib/starred-package-installer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Installs your starred packages when run",
-  "activationEvents": ["starred-package-installer:run"],
+  "activationEvents": [
+    "starred-package-installer:run"
+  ],
   "repository": "https://github.com/tomsowerby/starred-package-installer",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
