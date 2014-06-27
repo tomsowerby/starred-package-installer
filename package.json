@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Installs your starred packages when run",
   "activationEvents": ["starred-package-installer:run"],
-  "repository": "https://github.com/atom/starred-package-installer",
+  "repository": "https://github.com/tomsowerby/starred-package-installer",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
