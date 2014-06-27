@@ -1,5 +1,5 @@
 {
-  "name": "Starred Package Installer",
+  "name": "starred-package-installer",
   "main": "./lib/starred-package-installer",
   "version": "0.0.0",
   "description": "Installs your starred packages when run",
